@@ -1,0 +1,38 @@
+.shopCard__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+  padding: 20px;
+  border: 1px solid gainsboro;
+  box-shadow: 0 7px 12px rgba(0, 0, 0, 0.15);
+  background-color: #f5f5f5;
+}
+
+.shopCard__title {
+  text-transform: uppercase;
+}
+
+.shopCard__title,
+.shopCard__color {
+  font-weight: 400;
+}
+
+.shopCard__img {
+  width: 100%;
+  max-height: 60%;
+  object-fit: cover;
+}
+
+.shopCard__footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.shopCard__price {
+  color: red;
+  font-size: 15px;
+}

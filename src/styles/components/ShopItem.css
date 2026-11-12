@@ -1,0 +1,27 @@
+.listView__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  background-color: #f5f5f5;
+  padding: 2px 25px;
+}
+
+.listView__img {
+  max-height: 95%;
+  object-fit: cover;
+}
+
+.listView__title {
+  text-transform: uppercase;
+}
+
+.listView__title,
+.listView__color {
+  font-weight: 400;
+}
+
+.listView__price {
+  color: red;
+  font-size: 15px;
+}

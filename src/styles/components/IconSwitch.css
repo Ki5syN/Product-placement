@@ -1,0 +1,19 @@
+.iconSwitch {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.iconSwitch__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: none;
+}
+
+.material-icons {
+  font-size: 27px;
+  color: grey;
+}
